@@ -1,0 +1,18 @@
+{
+  "name": "mimir-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the new mimir scorer",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Arnold D'Souza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
